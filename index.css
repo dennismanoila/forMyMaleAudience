@@ -1,0 +1,64 @@
+*{
+    text-align: center;
+    margin:5px;
+    padding:0.5rem;
+    text-wrap: wrap;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+html {
+    background: linear-gradient(90deg in hsl longer hue, red 0 50%) 0/200%;
+    animation: r 6s linear infinite;
+    height: 100vh;
+  }
+  @keyframes r {
+    to {background-position: 100%}
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+h1{
+    
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    font-size: 3rem;
+}
+button{
+    background-color: black;
+    color:white;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 1em;
+    left:50%;
+    transform: translateX(-50%);
+    width:25em;
+}
+
+h2{
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12;
+    font-size: 2rem;
+}
+
+img{
+    position: absolute;
+    top:2em;
+    left:50%;
+    transform: translate(-50%);
+    width:80%;
+    height:70vh;
+    border: 5px solid pink;
+}
